@@ -38,8 +38,9 @@ CONFIG_PACKAGE_luci-theme-bootstrap=y
 # CONFIG_PACKAGE_ppp is not set
 CONFIG_PACKAGE_rpcd=y
 CONFIG_PACKAGE_rpcd-mod-rrdns=y
+CONFIG_PACKAGE_uboot-envtools=y
 CONFIG_PACKAGE_smartscope-wifi=y
-CONFIG_SMARTSCOPE_WIFI_SSID="SmartScope `strings /dev/mtd1|grep SERIAL|cut -d '=' -f 2`"
+CONFIG_SMARTSCOPE_WIFI_SSID="SmartScope `fw_printenv -n smartscope_serial`"
 CONFIG_PACKAGE_smartscopeserver=y
 CONFIG_PACKAGE_uhttpd=y
 CONFIG_PACKAGE_uhttpd-mod-ubus=y
