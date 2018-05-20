@@ -19,11 +19,12 @@ CONFIG_TARGET_ramips_rt305x_DEVICE_zorlik_zl5900v2=y
 # CONFIG_PACKAGE_libip6tc is not set
 CONFIG_PACKAGE_liblua=y
 # CONFIG_PACKAGE_libpthread is not set
+# CONFIG_PACKAGE_libuclient is not set
 # CONFIG_PACKAGE_odhcpd-ipv6only is not set
 # CONFIG_PACKAGE_opkg is not set
 # CONFIG_PACKAGE_ppp is not set
 CONFIG_PACKAGE_rpcd=y
-CONFIG_PACKAGE_uboot-envtools=y
-CONFIG_PACKAGE_uhttpd=y
-CONFIG_PACKAGE_uhttpd-mod-ubus=y
 CONFIG_PACKAGE_smartscope-wifi=y
+CONFIG_PACKAGE_uboot-envtools=y
+# CONFIG_PACKAGE_uclient-fetch is not set
+CONFIG_SMARTSCOPE_WIFI_SSID="SmartScope `strings /dev/mtd1|grep SSID1|cut -d '_' -f 2`"
