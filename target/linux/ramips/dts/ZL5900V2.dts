@@ -30,9 +30,9 @@
 		poll-interval = <20>;
 
 		reset {
-			label = "reset";
+			label = "reset_wifi";
 			gpios = <&gpio0 0 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_RESTART>;
+			linux,code = <BTN_0>;
 		};
 	};
 };
