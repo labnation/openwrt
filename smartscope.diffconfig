@@ -6,6 +6,8 @@ CONFIG_TARGET_ramips_rt305x_DEVICE_zorlik_zl5900v2=y
 CONFIG_PACKAGE_avahi-dbus-daemon=y
 CONFIG_PACKAGE_dbus=y
 # CONFIG_PACKAGE_kmod-ipt-offload is not set
+CONFIG_PACKAGE_kmod-ledtrig-timer=y
+CONFIG_PACKAGE_kmod-ledtrig-transient=y
 # CONFIG_PACKAGE_kmod-nf-flow is not set
 # CONFIG_PACKAGE_kmod-nf-ipt6 is not set
 # CONFIG_PACKAGE_kmod-ppp is not set
